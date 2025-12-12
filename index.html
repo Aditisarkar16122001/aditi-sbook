@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sbook</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <div class="navleft">
+            <a href="index.html"> <img src="images/logo2.png" alt=""></a>
+            
+            <ul>
+                <li><img src="images/notification.png" alt=""></li>
+                <li><img src="images/inbox.png" alt=""></li>
+                <li><img src="images/video.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="navright">
+            <div class="searchbox">
+                <img src="images/search.png" alt="">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="navusericon online" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png" alt="">
+            </div>
+        </div>
+
+        <!-- settings -->
+        <div class="settingsmenu">
+
+
+
+
+
+            <div id="darkbtn">
+                <span></span>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="settingsmenuin">
+                <div class="userprofile">
+                    <img src="images/profile-pic.png" alt="">
+
+                    <div>
+                        <p>John Nick</p>
+                        <a href="profile.html">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="userprofile">
+                    <img src="images/feedback.png" alt="">
+
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve</a>
+                    </div>
+                   
+
+                </div>
+
+                
+                <hr>
+
+
+
+                <div class="settingslinks">
+                    <img src="images/setting.png" class="settingsicon">
+                    <a href="#">Settings & privacy<img src="images/arrow.png" width="10px" ></a>
+
+                </div>
+                <div class="settingslinks">
+                    <img src="images/help.png" class="settingsicon"alt="">
+                    <a href="#">Help & Support  <img src="images/arrow.png" width="10px" alt=""></a>
+
+                </div>
+                <div class="settingslinks">
+                    <img src="images/display.png" class="settingsicon"alt="">
+                    <a href="#">Display & Access <img src="images/arrow.png" width="10px" alt=""></a>
+
+                </div>
+                <div class="settingslinks">
+                    <img src="images/logout.png" class="settingsicon"alt="">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px" alt=""></a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="leftsidebar">
+            <!-- left-sidebar -->
+            <div class="implinks">
+                <a href="#"><img src="images/news.png" alt="">Latest News</a>
+                <a href="#"><img src="images/friends.png" alt="">Friends</a>
+                <a href="#"><img src="images/group.png" alt="">Group</a>
+                <a href="#"><img src="images/marketplace.png" alt="">marketplace</a>
+                <a href="#"><img src="images/watch.png" alt="">Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcutlinks">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="images/shortcut-1.png" alt="">Web Developers</a>
+                <a href="#"><img src="images/shortcut-2.png" alt="">Web Design Course</a>
+                <a href="#"><img src="images/shortcut-3.png" alt="">Full Stack Developers</a>
+                <a href="#"><img src="images/shortcut-4.png" alt="">Website Experts</a>
+            </div>
+        </div>
+        <div class="maincontent">
+            <!-- maincontent -->
+
+
+            <div class="storygallery">
+                <div class="story story1">
+                    <img src="images/upload.png" alt="">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/member-1.png" alt="">
+                    <p>Alan Mina</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/member-2.png" alt="">
+                    <p>Wilson Mina</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/member-3.png" alt="">
+                    <p>Anna Grey</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/member-4.png" alt="">
+                    <p>shina Ray</p>
+                </div>
+            </div>
+
+
+
+            <div class="writepostcontainer">
+                <div class="userprofile">
+                    <img src="images/profile-pic.png" alt="">
+
+                    <div>
+                        <p>John Nick</p>
+                        <small>Public <i class="fa-solid fa-sort-down"></i></small>
+                    </div>
+                </div>
+
+
+
+                <div class="postinputcontainer">
+                    <textarea rows="3" placeholder="What's on your mind John?"></textarea>
+                    <div class="addpostlinks">
+                        <a href="#">
+                            <img src="images/live-video.png" alt="">
+                            Like Video
+                        </a>
+                        <a href="#">
+                            <img src="images/photo.png" alt="">
+                            Photo/Video
+                        </a>
+                        <a href="#">
+                            <img src="images/feeling.png" alt="">
+                            Feeling/Activity
+                        </a>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+            <div class="postcontainer">
+                <div class="postrow">
+                    <div class="userprofile">
+                        <img src="images/profile-pic.png" alt="">
+
+                        <div>
+                            <p>John Nick</p>
+                            <span>May 24 2024, 13:09 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-sort-down"></i></a>
+                </div>
+                <p class="posttext">Stay strong, Stay Motivated, Learn more with <span>@MyTechWorld</span> !!! Best OF
+                    Luck. <a href="#">#Motivation</a>
+                    <a href="#">#Learning</a>
+                </p>
+                <img src="images/feed-image-1.png" class="postimg" alt="">
+
+
+                <div class="postrow">
+                    <div class="activityicons">
+                        <div>
+                            <img src="images/like-blue.png" alt="">120
+                        </div>
+                        <div>
+                            <img src="images/comments.png" alt="">48
+                        </div>
+                        <div>
+                            <img src="images/share.png" alt="">50
+                        </div>
+
+                    </div>
+                    <div class="postprofileicon">
+                        <img src="images/profile-pic.png" alt=""><i class="fa-solid fa-sort-down"></i>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="postcontainer">
+                <div class="postrow">
+                    <div class="userprofile">
+                        <img src="images/profile-pic.png" alt="">
+
+                        <div>
+                            <p>John Nick</p>
+                            <span>May 24 2024, 13:09 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-sort-down"></i></a>
+                </div>
+                <p class="posttext">Life is full of fun. <span>@Funjoy</span> . Lucky to have it.
+                    <a href="#">#Beauty</a>
+                    <a href="#">#Enjoy</a>
+                </p>
+                <img src="images/feed-image-2.png" class="postimg" alt="">
+
+
+                <div class="postrow">
+                    <div class="activityicons">
+                        <div>
+                            <img src="images/like.png" alt="">100
+                        </div>
+                        <div>
+                            <img src="images/comments.png" alt="">30
+                        </div>
+                        <div>
+                            <img src="images/share.png" alt="">90
+                        </div>
+
+                    </div>
+                    <div class="postprofileicon">
+                        <img src="images/profile-pic.png" alt=""><i class="fa-solid fa-sort-down"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="postcontainer">
+                <div class="postrow">
+                    <div class="userprofile">
+                        <img src="images/profile-pic.png" alt="">
+
+                        <div>
+                            <p>John Nick</p>
+                            <span>May 24 2024, 13:09 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-sort-down"></i></a>
+                </div>
+                <p class="posttext">Stay strong, Stay Motivated, Learn more with <span>@MyTechWorld</span> !!! Best
+                    OF
+                    Luck. <a href="#">#Motivation</a>
+                    <a href="#">#Learning</a>
+                </p>
+                <img src="images/feed-image-3.png" class="postimg" alt="">
+
+
+                <div class="postrow">
+                    <div class="activityicons">
+                        <div>
+                            <img src="images/like-blue.png" alt="">120
+                        </div>
+                        <div>
+                            <img src="images/comments.png" alt="">48
+                        </div>
+                        <div>
+                            <img src="images/share.png" alt="">50
+                        </div>
+
+                    </div>
+                    <div class="postprofileicon">
+                        <img src="images/profile-pic.png" alt=""><i class="fa-solid fa-sort-down"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="postcontainer">
+                <div class="postrow">
+                    <div class="userprofile">
+                        <img src="images/profile-pic.png" alt="">
+
+                        <div>
+                            <p>John Nick</p>
+                            <span>May 24 2024, 13:09 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-sort-down"></i></a>
+                </div>
+                <p class="posttext">Stay strong, Stay Motivated, Learn more with <span>@MyTechWorld</span> !!! Best
+                    OF
+                    Luck. <a href="#">#Motivation</a>
+                    <a href="#">#Learning</a>
+                </p>
+                <img src="images/feed-image-4.png" class="postimg" alt="">
+
+
+                <div class="postrow">
+                    <div class="activityicons">
+                        <div>
+                            <img src="images/like-blue.png" alt="">120
+                        </div>
+                        <div>
+                            <img src="images/comments.png" alt="">48
+                        </div>
+                        <div>
+                            <img src="images/share.png" alt="">50
+                        </div>
+
+                    </div>
+                    <div class="postprofileicon">
+                        <img src="images/profile-pic.png" alt=""><i class="fa-solid fa-sort-down"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="postcontainer">
+                <div class="postrow">
+                    <div class="userprofile">
+                        <img src="images/profile-pic.png" alt="">
+
+                        <div>
+                            <p>John Nick</p>
+                            <span>May 24 2024, 13:09 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-sort-down"></i></a>
+                </div>
+                <p class="posttext">Stay strong, Stay Motivated, Learn more with <span>@MyTechWorld</span> !!! Best
+                    OF
+                    Luck. <a href="#">#Motivation</a>
+                    <a href="#">#Learning</a>
+                </p>
+                <img src="images/feed-image-5.png" class="postimg" alt="">
+
+
+                <div class="postrow">
+                    <div class="activityicons">
+                        <div>
+                            <img src="images/like.png" alt="">120
+                        </div>
+                        <div>
+                            <img src="images/comments.png" alt="">48
+                        </div>
+                        <div>
+                            <img src="images/share.png" alt="">50
+                        </div>
+
+                    </div>
+                    <div class="postprofileicon">
+                        <img src="images/profile-pic.png" alt=""><i class="fa-solid fa-sort-down"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <button type="button" class="loadmorebutton">Load More</button>
+        </div>
+
+        <div class="rightsidebar">
+            <!-- rightsidebar -->
+
+
+            <div class="sidebartitle">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+
+            <div class="event">
+                <div class="leftevent">
+                    <h3>
+                        1
+                    </h3>
+                    <span>
+                        June
+                    </span>
+                </div>
+
+                <div class="rightevent">
+                    <h4>Social Media</h4>
+
+                    <p><i class="fa-solid fa-location-dot"></i> Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="leftevent">
+                    <h3>
+                        22
+                    </h3>
+                    <span>
+                        June
+                    </span>
+                </div>
+
+                <div class="rightevent">
+                    <h4>Mobile Marketing</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="sidebartitle">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="images/advertisement.png" class="sidebarads" alt="">
+            <div class="sidebartitle">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+
+            <div class="onlinelist">
+                <div class="online">
+                    <img src="images/member-1.png" alt="">
+                </div>
+                <p>Alan Mina</p>
+            </div>
+
+            <div class="onlinelist">
+                <div class="online">
+                    <img src="images/member-2.png" alt="">
+                </div>
+                <p>wilson Mina</p>
+            </div>
+            <div class="onlinelist">
+                <div class="online">
+                    <img src="images/member-3.png" alt="">
+                </div>
+                <p>Anna Grey</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="footer">
+        <p>Copyright 2024 - My Tech World</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
